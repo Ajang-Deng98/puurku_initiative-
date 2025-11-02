@@ -92,11 +92,11 @@ const Footer = () => {
                 <button>Subscribe</button>
               </div>
               <div className="social-media">
-                <a href="#" aria-label="Facebook"><Facebook size={20} /></a>
-                <a href="#" aria-label="Twitter"><Twitter size={20} /></a>
-                <a href="#" aria-label="Instagram"><Instagram size={20} /></a>
-                <a href="#" aria-label="LinkedIn"><Linkedin size={20} /></a>
-                <a href="#" aria-label="YouTube"><Youtube size={20} /></a>
+                <a href="https://facebook.com/puurku" aria-label="Facebook"><Facebook size={20} /></a>
+                <a href="https://twitter.com/puurku" aria-label="Twitter"><Twitter size={20} /></a>
+                <a href="https://instagram.com/puurku" aria-label="Instagram"><Instagram size={20} /></a>
+                <a href="https://linkedin.com/company/puurku" aria-label="LinkedIn"><Linkedin size={20} /></a>
+                <a href="https://youtube.com/@puurku" aria-label="YouTube"><Youtube size={20} /></a>
               </div>
             </div>
           </div>
