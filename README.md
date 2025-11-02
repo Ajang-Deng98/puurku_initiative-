@@ -13,7 +13,7 @@ A modern, responsive website for the PuurKu Initiative - empowering South Sudane
 
 ## 🚀 Live Demo
 
-Visit the live website: [PuurKu Initiative](https://puurku-initiative.vercel.app)
+Visit the live website: [PuurKu Initiative](https://puurku-initiative.netlify.app)
 
 ## 🛠️ Technologies Used
 
@@ -54,10 +54,10 @@ This builds the app for production to the `build` folder.
 
 ## 🚀 Deployment
 
-This project is configured for easy deployment on Vercel:
+This project is configured for easy deployment on Netlify:
 
 1. Push your code to GitHub
-2. Connect your GitHub repository to Vercel
+2. Connect your GitHub repository to Netlify
 3. Deploy automatically with each push to master
 
 ## 📁 Project Structure
