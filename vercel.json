@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "app/api/**/*.js": {
+      "runtime": "@vercel/node@18.x"
+    }
+  },
+  "buildCommand": "CI=false npm run build"
+}
