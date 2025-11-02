@@ -1,0 +1,584 @@
+.contact-page {
+  margin-top: 80px;
+}
+
+.contact-hero {
+  background: linear-gradient(135deg, #f8fffe 0%, #f0fdf4 100%);
+  padding: 5rem 0;
+}
+
+.hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  color: #4a5568;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(47, 133, 90, 0.15);
+}
+
+.contact-content {
+  padding: 6rem 0;
+  background: white;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 4rem;
+}
+
+.contact-form {
+  background: #f8fafc;
+  padding: 3rem;
+  border-radius: 20px;
+  border-left: 5px solid #2f855a;
+}
+
+.contact-form h2 {
+  font-size: 2.2rem;
+  color: #1a202c;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.form-subtitle {
+  font-size: 1rem;
+  color: #4a5568;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 1.2rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #2f855a;
+  box-shadow: 0 0 0 3px rgba(47, 133, 90, 0.1);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #2f855a 0%, #38a169 100%);
+  color: white;
+  padding: 1.2rem 2.5rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(47, 133, 90, 0.2);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #276749 0%, #2f855a 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(47, 133, 90, 0.3);
+}
+
+.contact-info {
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(47, 133, 90, 0.08);
+  height: fit-content;
+  border-top: 4px solid #2f855a;
+}
+
+.contact-info h2 {
+  font-size: 2rem;
+  color: #1a202c;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.info-subtitle {
+  font-size: 1rem;
+  color: #4a5568;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.info-item {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  background: #f8fafc;
+  border-radius: 12px;
+  border-left: 4px solid #2f855a;
+}
+
+.info-item:last-child {
+  margin-bottom: 0;
+}
+
+.info-item h3 {
+  font-size: 1.3rem;
+  color: #1a202c;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+.info-value {
+  color: #2f855a;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.info-description {
+  color: #4a5568;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.partnership-section {
+  padding: 6rem 0;
+  background: #f8fafc;
+}
+
+.partnership-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1a202c;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #4a5568;
+  margin-bottom: 3rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.partnership-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.partnership-card {
+  background: white;
+  padding: 3rem;
+  border-radius: 16px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  border-top: 4px solid #2f855a;
+  box-shadow: 0 8px 20px rgba(47, 133, 90, 0.08);
+}
+
+.partnership-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(47, 133, 90, 0.12);
+}
+
+.partnership-card h3 {
+  font-size: 1.5rem;
+  color: #1a202c;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.partnership-card p {
+  color: #4a5568;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.impact-note {
+  background: rgba(47, 133, 90, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 3px solid #2f855a;
+}
+
+.impact-note span {
+  color: #2f855a;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.contact-impact {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #2f855a 0%, #38a169 100%);
+  color: white;
+}
+
+.contact-impact h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+.impact-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.stat-card {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 3rem 2rem;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+}
+
+.stat-number {
+  display: block;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.contact-cta {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+  color: white;
+  text-align: center;
+}
+
+.cta-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.cta-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 1.2rem 2.5rem;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn-secondary:hover {
+  background: white;
+  color: #1a202c;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(255, 255, 255, 0.2);
+}
+
+/* Tablet styles */
+@media (max-width: 1024px) {
+  .hero-content {
+    gap: 3rem;
+    padding: 0 2rem;
+  }
+  
+  .contact-grid {
+    gap: 3rem;
+  }
+  
+  .partnership-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .contact-page {
+    margin-top: 70px;
+  }
+  
+  .contact-hero {
+    padding: 3rem 0;
+  }
+  
+  .hero-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .hero-text h1 {
+    font-size: 1.8rem;
+    line-height: 1.3;
+  }
+  
+  .hero-text p {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-image img {
+    height: 250px;
+  }
+  
+  .contact-content,
+  .partnership-section,
+  .contact-impact,
+  .contact-cta {
+    padding: 3rem 0;
+  }
+  
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .contact-form,
+  .contact-info {
+    padding: 1.5rem;
+  }
+  
+  .contact-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .contact-info h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .form-subtitle,
+  .info-subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    font-size: 0.9rem;
+    margin-bottom: 0.6rem;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+  
+  .btn-primary {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .info-item {
+    padding: 1rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  .info-item h3 {
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+  }
+  
+  .info-value {
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+  }
+  
+  .info-description {
+    font-size: 0.85rem;
+  }
+  
+  .partnership-section h2,
+  .contact-impact h2,
+  .cta-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .section-subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+  }
+  
+  .partnership-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+  
+  .partnership-card {
+    padding: 1.5rem;
+  }
+  
+  .partnership-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .partnership-card p {
+    font-size: 0.9rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  .impact-note span {
+    font-size: 0.85rem;
+  }
+  
+  .impact-stats {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+    padding: 0 1rem;
+  }
+  
+  .stat-card {
+    padding: 1.5rem 1rem;
+  }
+  
+  .stat-number {
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .stat-label {
+    font-size: 0.85rem;
+  }
+  
+  .cta-content p {
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    max-width: 280px;
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Small mobile styles */
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 1.5rem;
+  }
+  
+  .hero-image img {
+    height: 200px;
+  }
+  
+  .contact-form,
+  .contact-info {
+    padding: 1.2rem;
+  }
+  
+  .contact-form h2,
+  .contact-info h2,
+  .partnership-section h2,
+  .contact-impact h2,
+  .cta-content h2 {
+    font-size: 1.3rem;
+  }
+  
+  .partnership-card {
+    padding: 1.2rem;
+  }
+  
+  .impact-stats {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .stat-card {
+    padding: 1.2rem;
+  }
+  
+  .stat-number {
+    font-size: 1.8rem;
+  }
+}

@@ -1,0 +1,652 @@
+.about-page {
+  margin-top: 80px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-hero {
+  background: linear-gradient(135deg, #f8fffe 0%, #f0fdf4 100%);
+  padding: 5rem 0;
+}
+
+.hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  color: #4a5568;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.hero-location {
+  background: rgba(47, 133, 90, 0.1);
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  border-left: 4px solid #2f855a;
+}
+
+.hero-location span {
+  font-size: 1rem;
+  color: #2f855a;
+  font-weight: 600;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(47, 133, 90, 0.15);
+}
+
+.mission-vision {
+  padding: 6rem 0;
+  background: white;
+}
+
+.mission-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.mission-card, .vision-card {
+  background: #f8fafc;
+  padding: 3rem;
+  border-radius: 20px;
+  border-left: 5px solid #2f855a;
+  transition: transform 0.3s ease;
+}
+
+.mission-card:hover, .vision-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(47, 133, 90, 0.1);
+}
+
+.mission-card h2, .vision-card h2 {
+  font-size: 2.2rem;
+  color: #1a202c;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.mission-card p, .vision-card p {
+  font-size: 1.1rem;
+  color: #4a5568;
+  line-height: 1.7;
+}
+
+.story-section {
+  padding: 6rem 0;
+  background: #f8fafc;
+}
+
+.story-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1a202c;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #4a5568;
+  margin-bottom: 3rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.story-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2.5rem;
+}
+
+.story-item h3 {
+  font-size: 1.6rem;
+  color: #2f855a;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.story-item p {
+  font-size: 1.1rem;
+  color: #4a5568;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.story-quote {
+  background: #f0fff4;
+  border-left: 5px solid #2f855a;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 15px 15px 0;
+}
+
+.story-quote p {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #276749;
+  font-weight: 500;
+  margin: 0;
+}
+
+.milestones-section {
+  padding: 6rem 0;
+  background: white;
+}
+
+.milestones-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1a202c;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.milestones-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.milestone-card {
+  background: #f8fafc;
+  padding: 2.5rem;
+  border-radius: 16px;
+  border-top: 4px solid #2f855a;
+  transition: transform 0.3s ease;
+}
+
+.milestone-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(47, 133, 90, 0.1);
+}
+
+.milestone-year {
+  background: #2f855a;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 1rem;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+.milestone-card h3 {
+  font-size: 1.4rem;
+  color: #1a202c;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.milestone-card p {
+  color: #4a5568;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.values-section {
+  padding: 6rem 0;
+  background: #f8fafc;
+}
+
+.values-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1a202c;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.value-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 16px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  border-left: 4px solid #2f855a;
+  box-shadow: 0 8px 20px rgba(47, 133, 90, 0.08);
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(47, 133, 90, 0.12);
+}
+
+.value-card h3 {
+  font-size: 1.5rem;
+  color: #1a202c;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.value-card p {
+  color: #4a5568;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.team-section {
+  padding: 6rem 0;
+  background: white;
+}
+
+.team-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1a202c;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.team-card {
+  background: #f8fafc;
+  padding: 2.5rem;
+  border-radius: 16px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  border-top: 4px solid #2f855a;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(47, 133, 90, 0.1);
+}
+
+.team-card h3 {
+  font-size: 1.4rem;
+  color: #1a202c;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.team-card h4 {
+  font-size: 1.1rem;
+  color: #2f855a;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.team-card p {
+  color: #4a5568;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.impact-stats {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #2f855a 0%, #38a169 100%);
+  color: white;
+}
+
+.impact-stats h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.stat-card {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2.5rem;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+}
+
+.stat-number {
+  display: block;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.about-cta {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+  color: white;
+  text-align: center;
+}
+
+.cta-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.cta-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* Tablet styles */
+@media (max-width: 1024px) {
+  .hero-content {
+    gap: 3rem;
+    padding: 0 2rem;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+  
+  .mission-grid {
+    gap: 2rem;
+  }
+  
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .about-page {
+    margin-top: 70px;
+  }
+  
+  .about-hero {
+    padding: 3rem 0;
+  }
+  
+  .hero-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .hero-text h1 {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+  
+  .hero-text p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-image img {
+    height: 250px;
+  }
+  
+  .hero-location {
+    padding: 0.8rem 1rem;
+  }
+  
+  .hero-location span {
+    font-size: 0.9rem;
+  }
+  
+  .mission-vision,
+  .story-section,
+  .milestones-section,
+  .values-section,
+  .team-section,
+  .impact-stats,
+  .about-cta {
+    padding: 3rem 0;
+  }
+  
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .mission-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .mission-card, .vision-card {
+    padding: 1.5rem;
+  }
+  
+  .mission-card h2, .vision-card h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  
+  .mission-card p, .vision-card p {
+    font-size: 0.95rem;
+  }
+  
+  .story-section h2,
+  .milestones-section h2,
+  .values-section h2,
+  .team-section h2,
+  .impact-stats h2,
+  .cta-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .section-subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+  
+  .story-content {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .story-item h3 {
+    font-size: 1.3rem;
+  }
+  
+  .story-item p {
+    font-size: 0.95rem;
+  }
+  
+  .story-quote {
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .story-quote p {
+    font-size: 1rem;
+  }
+  
+  .milestones-grid,
+  .values-grid,
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .milestone-card,
+  .value-card,
+  .team-card {
+    padding: 1.5rem;
+  }
+  
+  .milestone-year {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .milestone-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .milestone-card p {
+    font-size: 0.9rem;
+  }
+  
+  .value-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .value-card p {
+    font-size: 0.9rem;
+  }
+  
+  .team-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+  }
+  
+  .team-card h4 {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+  
+  .team-card p {
+    font-size: 0.9rem;
+  }
+  
+  /* Impact stats - better mobile layout */
+  .stats-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  .stat-card {
+    padding: 1.5rem 1rem;
+  }
+  
+  .stat-number {
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .stat-label {
+    font-size: 0.85rem;
+    line-height: 1.3;
+  }
+  
+  .cta-content p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    max-width: 280px;
+    padding: 0.8rem 1.5rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* Small mobile styles */
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 1.7rem;
+  }
+  
+  .hero-image img {
+    height: 200px;
+  }
+  
+  .mission-card, .vision-card {
+    padding: 1.2rem;
+  }
+  
+  .mission-card h2, .vision-card h2 {
+    font-size: 1.4rem;
+  }
+  
+  .story-section h2,
+  .milestones-section h2,
+  .values-section h2,
+  .team-section h2,
+  .impact-stats h2,
+  .cta-content h2 {
+    font-size: 1.5rem;
+  }
+  
+  .milestone-card,
+  .value-card,
+  .team-card {
+    padding: 1.2rem;
+  }
+  
+  /* Stack impact stats vertically on very small screens */
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .stat-card {
+    padding: 1.2rem;
+  }
+  
+  .stat-number {
+    font-size: 1.8rem;
+  }
+  
+  .stat-label {
+    font-size: 0.8rem;
+  }
+}

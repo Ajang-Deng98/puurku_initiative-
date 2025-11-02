@@ -1,0 +1,571 @@
+.agriculture-page {
+  margin-top: 80px;
+}
+
+.agriculture-hero {
+  background: linear-gradient(135deg, #f8fffe 0%, #f0fdf4 100%);
+  padding: 4rem 0;
+}
+
+.hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  color: #4a5568;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(47, 133, 90, 0.15);
+}
+
+.programs-section {
+  padding: 5rem 0;
+  background: white;
+}
+
+.programs-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #1a202c;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 1rem;
+  color: #4a5568;
+  margin-bottom: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.programs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.program-card {
+  background: #f8fafc;
+  padding: 2rem;
+  border-radius: 16px;
+  border-left: 4px solid #2f855a;
+  transition: transform 0.3s ease;
+}
+
+.program-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(47, 133, 90, 0.1);
+}
+
+.program-card h3 {
+  font-size: 1.3rem;
+  color: #1a202c;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.program-card p {
+  color: #4a5568;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.benefits-list h4 {
+  font-size: 1rem;
+  color: #2f855a;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.benefits-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.benefits-list li {
+  padding: 0.25rem 0;
+  color: #4a5568;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.benefits-list li::before {
+  content: '✓';
+  color: #2f855a;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.crops-section {
+  padding: 5rem 0;
+  background: #f8fafc;
+}
+
+.crops-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #1a202c;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.crops-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.crop-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(47, 133, 90, 0.08);
+  border-top: 3px solid #2f855a;
+  transition: transform 0.3s ease;
+}
+
+.crop-card:hover {
+  transform: translateY(-3px);
+}
+
+.crop-card h3 {
+  font-size: 1.2rem;
+  color: #1a202c;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.crop-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.crop-yield, .crop-season {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label {
+  font-size: 0.9rem;
+  color: #4a5568;
+  font-weight: 500;
+}
+
+.value {
+  font-size: 0.9rem;
+  color: #2f855a;
+  font-weight: 600;
+}
+
+.techniques-section {
+  padding: 5rem 0;
+  background: white;
+}
+
+.techniques-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #1a202c;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.techniques-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.technique-card {
+  background: #f0fdf4;
+  padding: 2rem;
+  border-radius: 12px;
+  border-left: 4px solid #2f855a;
+}
+
+.technique-card h3 {
+  font-size: 1.2rem;
+  color: #1a202c;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.technique-card p {
+  color: #4a5568;
+  line-height: 1.6;
+}
+
+.impact-section {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, #2f855a 0%, #38a169 100%);
+  color: white;
+}
+
+.impact-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+.impact-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.stat-card {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.stat-number {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.agriculture-gallery {
+  padding: 5rem 0;
+  background: #f8fafc;
+}
+
+.agriculture-gallery h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #1a202c;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.gallery-item {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(47, 133, 90, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-5px);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.gallery-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(47, 133, 90, 0.9));
+  color: white;
+  padding: 2rem 1.5rem 1.5rem;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover .gallery-overlay {
+  transform: translateY(0);
+}
+
+.gallery-overlay p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+}
+
+.agriculture-cta {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+  color: white;
+  text-align: center;
+}
+
+.cta-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.cta-content p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.9;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+/* Tablet styles */
+@media (max-width: 1024px) {
+  .hero-content {
+    gap: 3rem;
+    padding: 0 2rem;
+  }
+  
+  .programs-grid,
+  .techniques-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  .crops-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .agriculture-page {
+    margin-top: 70px;
+  }
+  
+  .agriculture-hero {
+    padding: 3rem 0;
+  }
+  
+  .hero-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .hero-text h1 {
+    font-size: 1.8rem;
+    line-height: 1.3;
+  }
+  
+  .hero-text p {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-image img {
+    height: 250px;
+  }
+  
+  .programs-section,
+  .crops-section,
+  .techniques-section,
+  .impact-section,
+  .agriculture-gallery,
+  .agriculture-cta {
+    padding: 3rem 0;
+  }
+  
+  .programs-section h2,
+  .crops-section h2,
+  .techniques-section h2,
+  .impact-section h2,
+  .agriculture-gallery h2,
+  .cta-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .section-subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+  }
+  
+  .programs-grid,
+  .techniques-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+  
+  .program-card,
+  .technique-card {
+    padding: 1.5rem;
+  }
+  
+  .program-card h3,
+  .technique-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .program-card p,
+  .technique-card p {
+    font-size: 0.9rem;
+  }
+  
+  .benefits-list h4 {
+    font-size: 0.95rem;
+  }
+  
+  .benefits-list li {
+    font-size: 0.85rem;
+    padding: 0.2rem 0;
+  }
+  
+  .crops-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+    padding: 0 1rem;
+  }
+  
+  .crop-card {
+    padding: 1.2rem;
+  }
+  
+  .crop-card h3 {
+    font-size: 1.1rem;
+  }
+  
+  .label,
+  .value {
+    font-size: 0.85rem;
+  }
+  
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+  
+  .gallery-item img {
+    height: 200px;
+  }
+  
+  .gallery-overlay {
+    padding: 1.5rem 1rem 1rem;
+  }
+  
+  .gallery-overlay p {
+    font-size: 0.85rem;
+  }
+  
+  .impact-stats {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+    padding: 0 1rem;
+  }
+  
+  .stat-card {
+    padding: 1.5rem 1rem;
+  }
+  
+  .stat-number {
+    font-size: 2rem;
+  }
+  
+  .stat-label {
+    font-size: 0.85rem;
+  }
+  
+  .cta-content p {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    max-width: 280px;
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Small mobile styles */
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 1.5rem;
+  }
+  
+  .hero-image img {
+    height: 200px;
+  }
+  
+  .programs-section h2,
+  .crops-section h2,
+  .techniques-section h2,
+  .impact-section h2,
+  .agriculture-gallery h2,
+  .cta-content h2 {
+    font-size: 1.3rem;
+  }
+  
+  .program-card,
+  .technique-card,
+  .crop-card {
+    padding: 1rem;
+  }
+  
+  .impact-stats {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .stat-card {
+    padding: 1.2rem;
+  }
+  
+  .stat-number {
+    font-size: 1.8rem;
+  }
+}
